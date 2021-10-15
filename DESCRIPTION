@@ -1,0 +1,25 @@
+Package: pruebasPredicciones
+Type: Package
+Title: Predice la existencia de presencia en una estancia objetivo en los 2 registros anteriores relativos a la marca temporal
+Version: 0.1.0
+Author: Kepa Amigo Cañibano
+Maintainer: Kepa Amigo Cañibano <kepa@techfriendly.es>
+Description: Predice la existencia de presencia en una estancia objetivo en los 2 registros anteriores relativos a la marca temporal
+License: GPL-2
+Encoding: UTF-8
+LazyData: FLASE
+Imports:
+  jsonlite,
+  rjson,
+  lubridate,
+  timeDate,
+  RCurl,
+  prob,
+  dplyr,
+  zoo,
+  httr, 
+  RWeka,
+  caret,
+  class,
+  gmodels
+RoxygenNote: 7.1.2
